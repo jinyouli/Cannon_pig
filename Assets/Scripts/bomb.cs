@@ -40,7 +40,7 @@ public class bomb : MonoBehaviour {
 			Destroy(gameObject);
             Instantiate(boom, transform.position, Quaternion.identity);
 
-			Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position,0.5f,layerMask);
+			Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position,10.0f,layerMask);
 			for(int i = 0; i < colliders.Length; i++){
 				if(colliders[i].gameObject.tag == "Pig"){
 					GameManager._instance.ReducePig(colliders[i].gameObject.name);

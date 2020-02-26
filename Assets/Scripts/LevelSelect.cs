@@ -27,7 +27,7 @@ public class LevelSelect : MonoBehaviour {
         else {// 判断当前关卡是否可以选择
             int beforeNum = int.Parse(gameObject.name) - 1;
             if (PlayerPrefs.GetInt("level" + beforeNum.ToString()) > 0) {
-                isSelect = true;
+                isSelect = true; 
             }
         }
         
@@ -36,7 +36,7 @@ public class LevelSelect : MonoBehaviour {
             image.overrideSprite = levelBG;
             transform.Find("num").gameObject.SetActive(true);
 
-            int count = PlayerPrefs.GetInt("level" + gameObject.name);//获取现在关卡对应的名字，然后获得对应的星星个数
+            int count = PlayerPrefs.GetInt("level" + gameObject.name);
             if (count > 0) {
                 for (int i = 0; i < count; i++) {
                     stars[i].SetActive(true);
@@ -50,8 +50,7 @@ public class LevelSelect : MonoBehaviour {
         PlayerPrefs.SetString("nowLevel","level" +gameObject.name);
             SceneManager.LoadScene(2);
         if (isSelect) {
-            //
-            
+
         }
     }
 

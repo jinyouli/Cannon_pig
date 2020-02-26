@@ -25,12 +25,12 @@ public class GameManager : MonoBehaviour {
         if(birds.Count > 0) {
             originPos = birds[0].transform.position;
         }
-        
     }
 
     private void Start()
     {
         Initialized();
+       // PlayerPrefs.SetInt("totalNum",8);
     }
 
     /// <summary>
@@ -62,22 +62,12 @@ public class GameManager : MonoBehaviour {
     {
         if(pig.Count > 0)
         {
-            if(birds.Count > 0)
-            {
-                //下一只飞吧
-                Initialized();
-            }
-            else
-            {
-                //输了
-                lose.SetActive(true);
-            }
+            lose.SetActive(true);
         }
         else
         {
             win.SetActive(true);
         }
-
     }
 
     public void ShowStars() {
@@ -85,11 +75,8 @@ public class GameManager : MonoBehaviour {
     }
 
     IEnumerator show() {
-        for (; starsNum < birds.Count + 1; starsNum++)
+        for (; starsNum < stars.Length; starsNum++)
         {
-            if (starsNum >= stars.Length) {
-                break;
-            }
             yield return new WaitForSeconds(0.2f);
             stars[starsNum].SetActive(true);
         }
@@ -116,9 +103,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void SaveData() {
-        if (starsNum > PlayerPrefs.GetInt(PlayerPrefs.GetString("nowLevel"))){
-            PlayerPrefs.SetInt(PlayerPrefs.GetString("nowLevel"), starsNum);
-        }
+        PlayerPrefs.SetInt(PlayerPrefs.GetString("nowLevel"), stars.Length);
         int sum = 0;        
         for (int i = 1; i <= totalNum; i++) {
             sum += PlayerPrefs.GetInt("level" + i.ToString());
