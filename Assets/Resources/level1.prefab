@@ -1213,7 +1213,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1078403111683210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.33, y: -0.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4363010908867074}
@@ -2804,7 +2804,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300188, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
@@ -2824,7 +2823,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300188, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
@@ -2844,7 +2842,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300188, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
@@ -2891,7 +2888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300188, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
@@ -3096,7 +3092,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300188, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
@@ -3240,7 +3235,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 12
   minSpeed: 5
-  hurt: {fileID: 21300000, guid: c346c5040a8370e42aa71ab34d08a539, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1307526955149808, guid: 46412f507b60fa849bb482750223e731, type: 2}
   hurtClip: {fileID: 8300000, guid: c1a5f2757fb06fd45812883f28dbf66b, type: 3}
@@ -3261,6 +3255,7 @@ MonoBehaviour:
   birds: []
   pig:
   - {fileID: 114355701456594800}
+  woods: []
   win: {fileID: 1149059270725580}
   lose: {fileID: 1797220204805412}
   stars:
@@ -3328,7 +3323,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300188, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
@@ -3520,7 +3514,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300276, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
@@ -3710,7 +3703,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 8
   minSpeed: 3
-  hurt: {fileID: 21300276, guid: 8b99000cb683daa4aaeab038dd06b707, type: 3}
   boom: {fileID: 1534803252185148, guid: b29f0bd42cfbfb94c9b5b8915937650d, type: 2}
   score: {fileID: 1097566618327902, guid: 9d508ce245b4dac489e082f40d98d920, type: 2}
   hurtClip: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
