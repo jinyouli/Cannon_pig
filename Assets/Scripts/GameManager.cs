@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 
     public List<Bird> birds;
     public List<Pig> pig;
+    public List<Pig> woods;
     public static GameManager _instance;
     private Vector3 originPos; //初始化的位置
 
@@ -60,12 +61,9 @@ public class GameManager : MonoBehaviour {
     /// </summary>
    public void NextBird()
     {
-        if(pig.Count > 0)
+        if(pig.Count <= 0)
         {
-            lose.SetActive(true);
-        }
-        else
-        {
+            //lose.SetActive(true);
             win.SetActive(true);
         }
     }
@@ -91,6 +89,13 @@ public class GameManager : MonoBehaviour {
 
         for(int i=0; i<pig.Count;i++){
             Pig currentpig = pig[i];
+            if(currentpig.name == pigname){
+                currentpig.PigDead();
+            }
+        }
+
+        for(int i=0; i<woods.Count;i++){
+            Pig currentpig = woods[i];
             if(currentpig.name == pigname){
                 currentpig.PigDead();
             }

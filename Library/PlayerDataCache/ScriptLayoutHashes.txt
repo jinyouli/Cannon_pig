@@ -1,4 +1,5 @@
-WindowsStandalone
+WebGL
+d3d8e0ffa224b23591e6465ddc176959 Assembly-CSharp.dll:.ballmove
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -133,7 +134,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-1e467543c21a06207926ad7f9bd1c190 Assembly-CSharp.dll:.Pig
+208f8b2a2e29bd7c7d85d63ddb2a3cbd Assembly-CSharp.dll:.Pig
 8c345a8ab40f4ebded16daaf4bddb252 Assembly-CSharp.dll:.PausePanel
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 2a56361227def9f56c2cf57a88b32f4d UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
@@ -152,5 +153,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Win
 b0f66ab00e69ec40563a0dc02dd5704b Assembly-CSharp.dll:.AnimationController
 6cfae74aec92ecfee87e62fc5409caed Assembly-CSharp.dll:.MapSelect
-79b8bdc35ba41db623d28834c5854bdd Assembly-CSharp.dll:.GameManager
+5af73b5b5f100adf12eda24bb8a43ab0 Assembly-CSharp.dll:.GameManager
 d682bcb56a6bae3ca93b70dba905506f Assembly-CSharp.dll:.WeaponTrail
+d3d8e0ffa224b23591e6465ddc176959 Assembly-CSharp.dll:.ballmove_left

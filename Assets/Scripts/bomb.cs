@@ -23,7 +23,7 @@ public class bomb : MonoBehaviour {
         {
 			Vector3 mouse = Input.mousePosition;
 			Vector2 force = new Vector2(mouse.x,mouse.y);
-			rb.AddForce(force * 0.7f,ForceMode2D.Force); 
+			rb.AddForce(force * 0.9f,ForceMode2D.Force); 
 			m_oneTime = false;
 		}
 	}
@@ -40,9 +40,9 @@ public class bomb : MonoBehaviour {
 			Destroy(gameObject);
             Instantiate(boom, transform.position, Quaternion.identity);
 
-			Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position,10.0f,layerMask);
+			Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position,1.0f,layerMask);
 			for(int i = 0; i < colliders.Length; i++){
-				if(colliders[i].gameObject.tag == "Pig"){
+				if(colliders[i].gameObject.tag == "Enemy"){
 					GameManager._instance.ReducePig(colliders[i].gameObject.name);
 				}
 			}	
