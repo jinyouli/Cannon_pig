@@ -1,4 +1,4 @@
-WebGL
+WindowsStandalone
 d3d8e0ffa224b23591e6465ddc176959 Assembly-CSharp.dll:.ballmove
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
